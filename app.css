@@ -1,0 +1,215 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
+header {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 0.5em;
+  /* padding-left: 0; */
+  display: inline-block;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 2px 2px 5px 2px lightskyblue;
+  position: fixed;
+  bottom: 4px;
+  left: 4px;
+  transition: 10ms;
+}
+
+header:hover {
+  bottom: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#researchQuestion {
+  font-size: small;
+  margin-bottom: 3em;
+  border: 1px solid black;
+  padding: 1em 1em 0 1em;
+}
+
+#researchQuestion li {
+  margin-top: initial;
+}
+
+#researchQuestion li:first-of-type b {
+  text-decoration: underline;
+}
+
+li {
+  margin-top: 1em;
+}
+
+b {
+  text-decoration: wavy underline;
+}
+
+p {
+  line-height: 1.8em;
+  font-size: large;
+}
+
+main {
+  /* border: 1px solid black; */
+  margin-left: 12%;
+  margin-right: 12%;
+}
+#reason_vs_law {
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+#reason_vs_law div {
+  border: 1px solid black;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: larger;
+  margin: 2px;
+  border-radius: 20%;
+  padding: 10px;
+  width: 20%;
+}
+
+#reason_vs_law div span {
+  font-size: 0.01em;
+  display: block;
+  opacity: 0.5;
+}
+
+#reason_vs_law div p {
+  display: none;
+  font-size: small;
+}
+
+#reason_vs_law div:hover {
+  border-radius: 20px;
+  width: 50%;
+}
+
+#reason_vs_law div:hover p {
+  display: inline-block;
+  font-weight: bolder;
+}
+
+#reason_vs_law div:hover img {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#reason_vs_law div:hover span {
+  display: none;
+}
+
+footer {
+  margin-top: 2em;
+}
+
+.rubric {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.rubric:hover::after {
+  background-color: lightskyblue;
+  border: 1px solid black;
+  margin-left: 0.5em;
+}
+
+.RQ {
+  font-style: italic;
+}
+
+.RQ:hover::after {
+  content: "This is a re-focusing on (one of) the research questions";
+}
+
+.EVD:hover::after {
+  content: "This is a relevant and accurate source to the research question.";
+}
+
+#wang_yi_interview {
+  width: 80%;
+  display: inline-block;
+}
+
+.video {
+  text-align: center;
+}
+
+.videoCaption {
+  font-size: small;
+  border: 1px solid black;
+  display: inline-block;
+  width: 50%;
+}
+
+.bib:hover::after {
+  content: "formal bibliography listing all referenced sources, and using 8th edition MLA format consistent with in-text citations";
+}
+
+#general_timeline {
+  margin-bottom: 3em;
+}
+
+.conclusion:hover::after {
+  content: "This is a thoughtful conclusion.";
+}
+
+.researchQuestions:hover::after {
+  content: "Clearly defined research questions that are highly relevant to the course";
+}
+
+.Nansha:hover::after {
+  content: " compelling and accurate evidence to support in-depth the central position beyondthe required (2) scholarly sources that meet the criteria for ‘scholarly publications’ from beyond the syllabus";
+}
+
+.menu {
+  display: inline-block;
+  border: 1px solid black;
+  position: fixed;
+  padding: 0;
+  /* width: 10%; */
+  left: 4px;
+  border-radius: 5px;
+  padding-top: 0.5em;
+  top: 20%;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 2px 2px 5px 2px lightskyblue;
+}
+
+.menu ul,
+.menu li {
+  border-bottom: 1px solid black;
+  margin: 0;
+  padding: 0.1em;
+  margin-bottom: 0.5em;
+  overflow-wrap: anywhere;
+  /* text-decoration: none; */
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu ul {
+  border: none;
+}
+
+.menu li:nth-of-type(3) {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.counter:hover::after {
+  content: "Considers opposing positions, and draws original and thoughtful conclusions(that the criticism is most likely dismissed by the Chinese population)";
+}
